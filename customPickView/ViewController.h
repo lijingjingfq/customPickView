@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LJJCustomPickView.h"
+@interface ViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource,btnClickedPortocol>
+{
+    LJJCustomPickView*custom;
+}
 
-@interface ViewController : UIViewController
-
+- (IBAction)btnClicked:(UIButton *)sender;
 
 @end
 

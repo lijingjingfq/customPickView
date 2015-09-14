@@ -14,6 +14,8 @@
 		18064CD01BA6A702007937ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18064CCF1BA6A702007937ED /* Images.xcassets */; };
 		18064CD31BA6A702007937ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18064CD11BA6A702007937ED /* LaunchScreen.xib */; };
 		18064CDF1BA6A702007937ED /* customPickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18064CDE1BA6A702007937ED /* customPickViewTests.m */; };
+		18064CEA1BA6A91B007937ED /* LJJCustomPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18064CE91BA6A91B007937ED /* LJJCustomPickView.m */; };
+		18064CEC1BA6A93F007937ED /* LJJCustomPickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18064CEB1BA6A93F007937ED /* LJJCustomPickView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		18064CD81BA6A702007937ED /* customPickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customPickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18064CDD1BA6A702007937ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18064CDE1BA6A702007937ED /* customPickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPickViewTests.m; sourceTree = "<group>"; };
+		18064CE81BA6A91B007937ED /* LJJCustomPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJCustomPickView.h; sourceTree = "<group>"; };
+		18064CE91BA6A91B007937ED /* LJJCustomPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJCustomPickView.m; sourceTree = "<group>"; };
+		18064CEB1BA6A93F007937ED /* LJJCustomPickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJJCustomPickView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				18064CC71BA6A702007937ED /* AppDelegate.m */,
 				18064CC91BA6A702007937ED /* ViewController.h */,
 				18064CCA1BA6A702007937ED /* ViewController.m */,
+				18064CE81BA6A91B007937ED /* LJJCustomPickView.h */,
+				18064CE91BA6A91B007937ED /* LJJCustomPickView.m */,
+				18064CEB1BA6A93F007937ED /* LJJCustomPickView.xib */,
 				18064CCC1BA6A702007937ED /* Main.storyboard */,
 				18064CCF1BA6A702007937ED /* Images.xcassets */,
 				18064CD11BA6A702007937ED /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				18064CCE1BA6A702007937ED /* Main.storyboard in Resources */,
 				18064CD31BA6A702007937ED /* LaunchScreen.xib in Resources */,
 				18064CD01BA6A702007937ED /* Images.xcassets in Resources */,
+				18064CEC1BA6A93F007937ED /* LJJCustomPickView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				18064CCB1BA6A702007937ED /* ViewController.m in Sources */,
 				18064CC81BA6A702007937ED /* AppDelegate.m in Sources */,
 				18064CC51BA6A702007937ED /* main.m in Sources */,
+				18064CEA1BA6A91B007937ED /* LJJCustomPickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
